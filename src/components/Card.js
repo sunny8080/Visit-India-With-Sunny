@@ -14,7 +14,7 @@ const Card = ({ tour, removeTour }) => {
 
     return (
         <div className='card'>
-            <img className='tourImage' src={tour.image} alt="visiting place image" />
+            <img className='tourImage' src={tour.image} alt="visiting place" />
             <div className='tourInfo'>
                 <p className='tour-price'>₹ {tour.price}</p>
                 <p className='tour-name'>{tour.name}</p>
